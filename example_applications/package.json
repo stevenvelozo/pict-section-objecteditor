@@ -1,0 +1,15 @@
+{
+	"name": "example_applications",
+	"version": "1.0.0",
+	"description": "Simple static server for the ObjectEditor example.",
+	"main": "ServeExamples.js",
+	"scripts": {
+		"start": "node ServeExamples.js"
+	},
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"orator": "^5.0.1",
+		"orator-serviceserver-restify": "^2.0.3"
+	}
+}
