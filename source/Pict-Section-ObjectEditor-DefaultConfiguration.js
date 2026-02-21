@@ -34,7 +34,6 @@ module.exports = (
 	border-radius: 6px;
 	padding: 8px 0;
 	overflow: auto;
-	max-height: 600px;
 }
 .pict-oe-row
 {
