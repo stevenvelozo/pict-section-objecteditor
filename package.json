@@ -1,6 +1,6 @@
 {
 	"name": "pict-section-objecteditor",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Pict tree-based JSON object editor section",
 	"main": "source/Pict-Section-ObjectEditor.js",
 	"scripts": {
@@ -21,7 +21,7 @@
 	},
 	"homepage": "https://github.com/stevenvelozo/pict-section-objecteditor#readme",
 	"dependencies": {
-		"pict-view": "^1.0.66"
+		"pict-view": "^1.0.67"
 	},
 	"devDependencies": {
 		"pict": "^1.0.348",
