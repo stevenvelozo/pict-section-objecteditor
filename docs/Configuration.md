@@ -73,7 +73,7 @@ When a MacroTemplate is compiled, the following properties are available:
 | `PaddingLeft` | number | Computed left padding in pixels |
 | `EscapedPath` | string | HTML-attribute-escaped path |
 | `EscapedKey` | string | HTML-escaped key name |
-| `ToggleArrow` | string | `'▼'` if expanded, `'▶'` if collapsed |
+| `ToggleArrow` | string | `'▼'` if expanded, `'>'` if collapsed |
 | `EscapedArrayPath` | string | Escaped parent array path (for move buttons) |
 | `EscapedValue` | string | HTML-escaped display value (leaf nodes) |
 | `EscapedTitle` | string | HTML-attribute-escaped full value (strings, for tooltip) |
