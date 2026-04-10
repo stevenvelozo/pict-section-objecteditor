@@ -25,11 +25,14 @@
 	},
 	"devDependencies": {
 		"pict": "^1.0.348",
+		"pict-docuserve": "^0.1.5",
 		"quackage": "^1.1.0"
 	},
 	"mocha": {
 		"diff": true,
-		"extension": ["js"],
+		"extension": [
+			"js"
+		],
 		"package": "./package.json",
 		"reporter": "spec",
 		"slow": "75",
