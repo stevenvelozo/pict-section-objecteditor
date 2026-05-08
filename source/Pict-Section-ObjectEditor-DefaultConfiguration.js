@@ -28,8 +28,8 @@ module.exports = (
 	font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace;
 	font-size: 13px;
 	line-height: 1.5;
-	color: #3D3229;
-	background: #FDFCFA;
+	color: var(--theme-color-text-primary, #3D3229);
+	background: var(--theme-color-background-panel, #FDFCFA);
 	border: 1px solid #E8E3DA;
 	border-radius: 6px;
 	padding: 8px 0;
@@ -66,7 +66,7 @@ module.exports = (
 .pict-oe-toggle:hover
 {
 	background: #E8E3DA;
-	color: #3D3229;
+	color: var(--theme-color-text-primary, #3D3229);
 }
 .pict-oe-spacer
 {
@@ -132,7 +132,7 @@ module.exports = (
 	font-size: 9px;
 	padding: 0 4px;
 	border-radius: 3px;
-	background: #F0ECE4;
+	background: var(--theme-color-background-secondary, #F0ECE4);
 	color: #8A7F72;
 	margin-left: 6px;
 	line-height: 16px;
@@ -140,7 +140,7 @@ module.exports = (
 }
 .pict-oe-value-input
 {
-	background: #FFF;
+	background: var(--theme-color-background-panel, #FFF);
 	border: 1px solid #2E7D74;
 	border-radius: 3px;
 	padding: 1px 4px;
@@ -203,7 +203,7 @@ module.exports = (
 {
 	background: #E8E3DA;
 	border-color: #C5BFAE;
-	color: #3D3229;
+	color: var(--theme-color-text-primary, #3D3229);
 }
 .pict-oe-action-remove
 {
@@ -241,7 +241,7 @@ module.exports = (
 }
 .pict-oe-key-input
 {
-	background: #FFF;
+	background: var(--theme-color-background-panel, #FFF);
 	border: 1px solid #9E6B47;
 	border-radius: 3px;
 	padding: 1px 4px;
@@ -259,13 +259,13 @@ module.exports = (
 }
 .pict-oe-type-select
 {
-	background: #FFF;
+	background: var(--theme-color-background-panel, #FFF);
 	border: 1px solid #C5BFAE;
 	border-radius: 3px;
 	padding: 1px 4px;
 	font-family: inherit;
 	font-size: inherit;
-	color: #3D3229;
+	color: var(--theme-color-text-primary, #3D3229);
 	outline: none;
 	margin-left: 6px;
 	cursor: pointer;

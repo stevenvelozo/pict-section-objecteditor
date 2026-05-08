@@ -12,7 +12,7 @@
 				margin: 0;
 				padding: 32px;
 				background: #F5F3EF;
-				color: #3D3229;
+				color: var(--theme-color-text-primary, #3D3229);
 			}
 			h1
 			{
@@ -37,7 +37,7 @@
 				padding: 4px 12px;
 				border: 1px solid #D5CFC5;
 				border-radius: 4px;
-				background: #FFF;
+				background: var(--theme-color-background-panel, #FFF);
 				color: #5C4B3A;
 				cursor: pointer;
 			}
@@ -617,10 +617,10 @@
 		<style>
 			.pict-objecteditor[data-theme="spreadsheet"]
 			{
-				background: #FFFFFF;
+				background: var(--theme-color-background-panel, #FFFFFF);
 				border: 1px solid #BABFC4;
 				border-radius: 0;
-				color: #222222;
+				color: var(--theme-color-text-primary, #222222);
 				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
 				font-size: 13px;
 				padding: 0;
@@ -657,7 +657,7 @@
 			}
 			.pict-objecteditor[data-theme="spreadsheet"] .pict-oe-key
 			{
-				color: #222222;
+				color: var(--theme-color-text-primary, #222222);
 				font-weight: 600;
 			}
 			.pict-objecteditor[data-theme="spreadsheet"] .pict-oe-separator
@@ -725,14 +725,14 @@
 			}
 			.pict-objecteditor[data-theme="spreadsheet"] .pict-oe-action-btn:hover
 			{
-				background: #FFFFFF;
-				color: #222222;
+				background: var(--theme-color-background-panel, #FFFFFF);
+				color: var(--theme-color-text-primary, #222222);
 				border-color: #BABFC4;
 				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 			}
 			.pict-objecteditor[data-theme="spreadsheet"] .pict-oe-action-btn:active
 			{
-				background: #E8E8E8;
+				background: var(--theme-color-border-light, #E8E8E8);
 				box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 				border-color: #BABFC4;
 			}
@@ -803,15 +803,15 @@
 			}
 			.pict-objecteditor[data-theme="spreadsheet"] .pict-oe-key-input
 			{
-				border: 2px solid #222222;
+				border: 2px solid var(--theme-color-text-primary, #222222);
 				border-radius: 2px;
-				color: #222222;
+				color: var(--theme-color-text-primary, #222222);
 			}
 			.pict-objecteditor[data-theme="spreadsheet"] .pict-oe-type-select
 			{
 				border: 1px solid #DADCE0;
 				border-radius: 3px;
-				color: #222222;
+				color: var(--theme-color-text-primary, #222222);
 				background: #F8F9FA;
 			}
 			.pict-objecteditor[data-theme="spreadsheet"] .pict-oe-type-select:focus
